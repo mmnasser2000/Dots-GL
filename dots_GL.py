@@ -1,3 +1,8 @@
+'''
+This page uses data from the OpenPowerlifting project, https://www.openpowerlifting.org.
+You may download a copy of the data at https://data.openpowerlifting.org.
+'''
+
 import pandas as pd
 import matplotlib.pyplot as plt
 
