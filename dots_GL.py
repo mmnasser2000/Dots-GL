@@ -33,7 +33,7 @@ texasGLRatio = len(liftersTXGL) / len(allTexasLifters)
 
 
 rows = ["% of carolina lifters w/ > 500 dots", "% of texas lifters w/ > 500 dots", "% of carolina lifters w/ > 100 GL", "% of texas lifters w/ > 100 GL"]
-values = [carolinaDotsRatio*100, texasDotsRatio*100, carolinaDotsRatio*100, texasDotsRatio*100]
+values = [carolinaDotsRatio*100, texasDotsRatio*100, carolinaGLRatio*100, texasGLRatio*100]
 
 f = plt.figure(1)
 plt.bar(['Carolinas', 'Texas'], values[:2])
